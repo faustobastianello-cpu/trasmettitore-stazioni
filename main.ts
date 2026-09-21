@@ -6,6 +6,7 @@ basic.forever(function () {
     forza = input.magneticForce(Dimension.Strength)
     if (forza > 300) {
         basic.showIcon(IconNames.Heart)
+        basic.showString("benvenuti!")
         if (trasmesso == 0) {
             radio.sendString("4")
             trasmesso = 1
